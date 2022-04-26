@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.scss';
+import Root from "./template/Root";
 
 function App() {
     return (
-        <>Hello World!!!</>
+        <Root>
+            Hello World!!!
+        </Root>
     );
 }
 
